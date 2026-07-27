@@ -7319,3 +7319,13 @@ body[data-entry="home"] .home-actions button {
   body[data-entry="home"] .home-actions{grid-template-columns:1fr}
   .app-home-return{left:10px;bottom:10px;padding:8px 11px}
 }
+
+
+/* Single-navigation cleanup */
+.home-card-link-note{
+  display:block;
+  margin-top:12px;
+  color:var(--muted,#7faab6);
+  font-size:8px;
+  letter-spacing:.13em;
+}
