@@ -3910,8 +3910,6 @@ a:focus-visible,
 
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 /* Restored four-sector realm layout */
 .star-chart{
@@ -4022,8 +4020,6 @@ a:focus-visible,
   letter-spacing:.1em;
 }
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* ---------------------------------------------------------
@@ -4155,8 +4151,6 @@ a:focus-visible,
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 /* Equal-radius node arrangements */
 .realm-node[data-sector="2"][data-slot="1"]{left:74%!important;top:69%!important}
@@ -4212,8 +4206,6 @@ a:focus-visible,
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 .realm-location-art{
   width:100%;
@@ -4226,8 +4218,6 @@ a:focus-visible,
   box-shadow:inset 0 0 22px rgba(0,0,0,.28);
 }
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Never reveal the communicator behind login or boot screens. */
@@ -4461,8 +4451,6 @@ body.page-contacts .sidebar{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 /* =========================================================
    SECTOR 4 — GRAY THEME
@@ -4585,8 +4573,6 @@ body.page-contacts .sidebar{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 .contact-communication-actions{
   margin-top:18px;padding:14px;border:1px solid color-mix(in srgb,var(--current,#63f7ff) 22%,transparent);
@@ -4606,8 +4592,6 @@ body.page-contacts .sidebar{
 .rosie-location-tags span{padding:5px 7px;border-radius:999px;border:1px solid rgba(255,94,188,.18);color:#e6b5d4;font-size:6px;letter-spacing:.08em}
 @media(max-width:760px){.contact-action-buttons{grid-template-columns:1fr}.rosie-sanctum-lore{grid-template-columns:1fr}.rosie-sanctum-art{width:100%;aspect-ratio:16/7}}
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Allow the contact page and selected-contact panel to scroll instead of clipping. */
@@ -4687,8 +4671,6 @@ body.page-contacts .hologram{
 }
 
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Keep the normal labels subtle until hovered. */
@@ -4823,8 +4805,6 @@ body.page-contacts .hologram{
   }
 }
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Expand the full navigable star chart so sectors have more room. */
@@ -4996,8 +4976,6 @@ body.page-contacts .hologram{
   }
 }
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Make the selected contact page scroll instead of clipping at the bottom. */
@@ -5238,8 +5216,6 @@ body.page-contacts .profile-card{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 /* Keep sector centers exactly where they are, but enlarge each circle. */
 .map-sector{
@@ -5402,8 +5378,6 @@ body.page-contacts .profile-card{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 .reactive-light-field{
   pointer-events:none!important;
@@ -5463,8 +5437,6 @@ body.page-contacts .profile-card{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 .realm-node[data-realm="Aeithorium Bastion"] .dot,
 .realm-node[data-realm="Aeithorium Bastion"] .node-realm-image{
@@ -5482,8 +5454,6 @@ body.page-contacts .profile-card{
   background-repeat:no-repeat!important;
 }
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 .star-chart::before{
@@ -5532,8 +5502,6 @@ body.page-contacts .profile-card{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 .bio-db{position:absolute;inset:0;z-index:110;display:grid;grid-template-rows:78px minmax(0,1fr) 42px;opacity:0;visibility:hidden;pointer-events:none;transform:scale(1.025);background:radial-gradient(circle at 48% 50%,rgba(22,98,170,.16),transparent 32%),radial-gradient(circle at 78% 15%,rgba(255,92,190,.08),transparent 26%),linear-gradient(145deg,#010711,#020b16 58%,#020812);transition:opacity .35s ease,transform .45s cubic-bezier(.2,.85,.2,1),visibility 0s linear .45s;overflow:hidden}
 .bio-db.open{opacity:1;visibility:visible;pointer-events:auto;transform:scale(1);transition:opacity .35s ease,transform .45s cubic-bezier(.2,.85,.2,1)}
@@ -5553,8 +5521,6 @@ body.page-contacts .profile-card{
 @media(max-width:1100px){.bio-layout{grid-template-columns:170px minmax(330px,1fr) minmax(330px,.9fr)}.bio-node{width:125px;height:125px}.bio-gem{width:92px;height:92px}.bio-node strong{top:calc(50% + 62px);font-size:10px}.bio-node small{top:calc(50% + 80px)}}
 @media(max-width:820px){.bio-db{grid-template-rows:70px minmax(0,1fr) 32px}.bio-head{grid-template-columns:1fr auto}.bio-brand{display:none}.bio-title{text-align:left}.bio-title h2{font-size:16px}.bio-layout{grid-template-columns:1fr;overflow:auto}.bio-scan{display:none}.bio-stage-panel{min-height:470px}.bio-dossier{min-height:520px}.bio-node[data-species="humans"]{left:22%}.bio-node[data-species="vapors"]{left:78%}}
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Mouse-reactive camera, larger race targets, orbital motion, and cinematic focus. */
@@ -5645,8 +5611,6 @@ body.page-contacts .profile-card{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 .bio-variants-tab[hidden]{display:none!important}
 .bio-dossier{overflow-y:auto!important;scrollbar-gutter:stable}
@@ -5662,12 +5626,8 @@ body.page-contacts .profile-card{
 @media(max-width:820px){.vapor-variant-display{grid-template-columns:1fr;text-align:center}.vapor-threat{margin-left:auto;margin-right:auto}}
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 .human-force-system{display:grid;grid-template-columns:minmax(310px,.9fr) minmax(330px,1.1fr);gap:18px;min-height:430px}.human-force-map{position:relative;min-height:410px;border:1px solid rgba(112,207,255,.28);border-radius:16px;overflow:hidden;background:radial-gradient(circle at 50% 48%,rgba(112,207,255,.14),transparent 29%),linear-gradient(145deg,rgba(4,17,31,.82),rgba(6,24,42,.45))}.human-force-map:before{content:"LIFE FORCE CONNECTION MAP";position:absolute;left:16px;top:13px;color:#83d9ff;font-size:9px;letter-spacing:.18em}.human-force-lines{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.human-force-lines line{stroke:rgba(112,207,255,.52);stroke-width:1.2;stroke-dasharray:5 6;animation:humanForcePulse 2.4s ease-in-out infinite}@keyframes humanForcePulse{50%{stroke-opacity:.35;stroke-dashoffset:-22}}.human-core-node{position:absolute;left:50%;top:51%;width:116px;height:116px;transform:translate(-50%,-50%);display:grid;place-items:center;border:1px solid #70cfff;border-radius:50%;background:radial-gradient(circle,rgba(112,207,255,.34),rgba(6,18,32,.96) 66%);box-shadow:0 0 24px rgba(112,207,255,.7),0 0 70px rgba(112,207,255,.18);z-index:2}.human-core-symbol{font-size:34px;color:#dcf8ff;text-shadow:0 0 16px #70cfff}.human-core-node strong{position:absolute;top:73%;font-size:10px;letter-spacing:.12em;color:#bdeeff}.human-core-node small{position:absolute;top:86%;font-size:7px;letter-spacing:.1em;color:#70cfff}.human-force-node{--force:#70cfff;position:absolute;width:118px;min-height:86px;transform:translate(-50%,-50%);border:1px solid color-mix(in srgb,var(--force) 70%,transparent);border-radius:13px;background:linear-gradient(145deg,color-mix(in srgb,var(--force) 14%,rgba(5,16,29,.96)),rgba(5,15,28,.96));color:white;display:grid;grid-template-columns:34px 1fr;gap:7px;align-items:center;padding:10px;text-align:left;cursor:pointer;z-index:3;transition:.2s}.human-force-node:hover,.human-force-node.active{transform:translate(-50%,-50%) scale(1.08);box-shadow:0 0 20px color-mix(in srgb,var(--force) 62%,transparent)}.human-force-node[data-force="visionary"]{left:50%;top:19%;--force:#ffe36d}.human-force-node[data-force="weaponora"]{left:20%;top:53%;--force:#62b8ff}.human-force-node[data-force="mana"]{left:80%;top:53%;--force:#b47cff}.human-force-node[data-force="elementoria"]{left:50%;top:84%;--force:#ff9e52}.force-node-icon{width:32px;height:32px;display:grid;place-items:center;border:1px solid var(--force);border-radius:50%;font-size:17px;color:var(--force)}.human-force-node strong{font-size:9px;line-height:1.25;color:color-mix(in srgb,var(--force) 65%,white)}.human-force-node small{display:block;margin-top:3px;font-size:7px;color:#789bad}.human-force-detail{border:1px solid rgba(112,207,255,.28);border-radius:16px;padding:20px;background:linear-gradient(155deg,rgba(5,17,31,.96),rgba(8,27,46,.78));overflow:auto}.force-detail-head{display:grid;grid-template-columns:58px 1fr;gap:14px;align-items:center;padding-bottom:14px;border-bottom:1px solid rgba(112,207,255,.2)}.force-detail-emblem{--force:#70cfff;width:58px;height:58px;display:grid;place-items:center;border:1px solid var(--force);border-radius:15px;font-size:28px;color:var(--force)}.force-detail-label{font-size:8px;letter-spacing:.17em;color:#6f9aae}.force-detail-head h4{margin:4px 0 3px;color:#d9f8ff;font-size:18px}.force-detail-class{font-size:8px;color:#83d9ff}.force-detail-copy{margin:16px 0;color:#b9d8e4;font-size:12px;line-height:1.7}.force-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.force-detail-stat{padding:11px;border:1px solid rgba(112,207,255,.17);border-radius:10px;background:rgba(112,207,255,.035)}.force-detail-stat b{display:block;margin-bottom:5px;color:#8fe1ff;font-size:8px}.force-detail-stat span{font-size:10px;line-height:1.45;color:#a9c9d6}@media(max-width:1050px){.human-force-system{grid-template-columns:1fr}.human-force-map{min-height:430px}}@media(max-width:620px){.human-force-map{min-height:520px}.human-force-node{width:105px;grid-template-columns:28px 1fr;padding:8px}.force-detail-grid{grid-template-columns:1fr}}
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Fixed race positions with horizontal hologram rotation. */
@@ -5759,8 +5719,6 @@ body.page-contacts .profile-card{
   .bio-gem,.bio-particle{animation:none!important}
 }
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Stable, non-rotating interaction surface. The animated art never receives pointer events. */
@@ -5920,8 +5878,6 @@ body.page-contacts .profile-card{
 @media(prefers-reduced-motion:reduce){.vapor-stage-gem{animation:none!important}}
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 /* Keep hit testing cheap and stable while the holograms animate. */
 .bio-node{contain:layout style;will-change:auto!important}
@@ -5931,8 +5887,6 @@ body.page-contacts .profile-card{
 .bio-particle{will-change:transform;pointer-events:none!important}
 .bio-db:not(.open) .bio-particle,.bio-db:not(.open) .bio-gem,.bio-db:not(.open) .vapor-stage-gem{animation-play-state:paused!important}
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Species-reactive Biological Database backgrounds */
@@ -6065,8 +6019,6 @@ body.page-contacts .profile-card{
 @media(prefers-reduced-motion:reduce){.bio-space::before,.bio-space::after{animation:none!important}}
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 /* Variant specimens emerge from, and collapse back into, the main Soulest Vapor icon. */
 .vapor-stage-variants{
@@ -6148,8 +6100,6 @@ body.page-contacts .profile-card{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 /* Restore the six surrounding variant controls after the full-circle button upgrade.
    Animation keyframes must be allowed to control transform. */
@@ -6163,8 +6113,6 @@ body.page-contacts .profile-card{
 .vapor-stage-node .vapor-stage-icon,
 .vapor-stage-node .vapor-stage-name{pointer-events:none!important}
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /*
@@ -6233,8 +6181,6 @@ body.page-contacts .profile-card{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 .bio-audio-controls{
   position:absolute;right:78px;top:50%;transform:translateY(-50%);
@@ -6261,8 +6207,6 @@ body.page-contacts .profile-card{
 .bio-audio-unlock.show{opacity:1;transform:none}
 @media(max-width:820px){.bio-audio-controls{right:58px}.bio-audio-volume,.bio-audio-readout{display:none}}
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Stable, generous click surfaces. Animated artwork never receives pointer input. */
@@ -6298,8 +6242,6 @@ body.page-contacts .profile-card{
 @media(max-width:1050px){.bio-node{width:190px!important;height:190px!important;min-width:190px!important;min-height:190px!important}}
 @media(max-width:820px){.bio-node{width:150px!important;height:150px!important;min-width:150px!important;min-height:150px!important}.vapor-stage-node{width:104px!important;height:104px!important;min-width:104px!important;min-height:104px!important}}
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* The rotating species holograms are now visual displays only. A separate,
@@ -6376,8 +6318,6 @@ body.page-contacts .profile-card{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 /* Empty database state must look fully open, not like a collapsed dossier. */
 #biologicalDatabase:not(.bio-focused) .bio-layout{
@@ -6418,8 +6358,6 @@ body.page-contacts .profile-card{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 #biologicalDatabase .bio-node,
 #biologicalDatabase .bio-node::before,
@@ -6451,8 +6389,6 @@ body.page-contacts .profile-card{
   pointer-events:auto!important;
 }
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* =========================================================
@@ -6655,8 +6591,6 @@ body{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 #biologicalDatabase.open{
   display:grid!important;
@@ -6739,8 +6673,6 @@ body{
   #biologicalDatabase .bio-stage-panel{min-height:470px!important}
 }
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Final authoritative Biological Database visibility rules for desktop/laptop/ultrawide. */
@@ -6847,8 +6779,6 @@ body{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 /* Keep the horizontal spin on one uninterrupted timeline.
    Hover only changes a scale variable, so the animation never restarts or jumps. */
@@ -6885,8 +6815,6 @@ body{
   }
 }
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Keep the stationary circular icon frame visible while the inner polygon rotates. */
@@ -6935,8 +6863,6 @@ body{
   pointer-events:none;
 }
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Keep each surrounding Soulest Vapor variant frame visible while only its inner gem rotates. */
@@ -6991,8 +6917,6 @@ body{
   transform:translateZ(3px);
 }
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Full circular controls: the ring is the interaction target; rotating art is visual only. */
@@ -7143,8 +7067,6 @@ body{
 }
 
 
-/* ---- ORIGINAL STYLE BLOCK ---- */
-
 
 /* Selecting a Vapor changes only selection state; it never replays deployment. */
 .bio-tab[data-bio-tab="variants"].transition-locked{
@@ -7182,8 +7104,6 @@ body{
 }
 @keyframes vaporSelectionPulse{0%,100%{opacity:.35;transform:scale(.94)}50%{opacity:.9;transform:scale(1.04)}}
 
-
-/* ---- ORIGINAL STYLE BLOCK ---- */
 
 
 /* Biological Database state rules:

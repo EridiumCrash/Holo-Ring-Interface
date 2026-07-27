@@ -930,8 +930,6 @@ setInterval(()=>document.querySelector("#clock").textContent=new Date().toLocale
 select("Mar Sunshine");
 
 
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
-
 
 (function(){
 const DEFAULT_THEME={
@@ -977,8 +975,6 @@ if(typeof select==="function"){
 }
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (function(){
@@ -1090,8 +1086,6 @@ if(typeof select==="function"){
 })();
 
 
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
-
 
 (function(){
   // Prevent browser image dragging from interfering with map/profile controls.
@@ -1130,8 +1124,6 @@ if(typeof select==="function"){
   });
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 window.addEventListener("DOMContentLoaded",()=>{
@@ -1242,8 +1234,6 @@ window.addEventListener("DOMContentLoaded",()=>{
 });
 
 
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
-
 
 (function(){
   const login=document.querySelector("#holoLogin");
@@ -1311,8 +1301,6 @@ window.addEventListener("DOMContentLoaded",()=>{
   });
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (function(){
@@ -1460,8 +1448,6 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
-
 
 (function(){
   function sanitize(){
@@ -1484,8 +1470,6 @@ window.addEventListener("DOMContentLoaded",()=>{
   }
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (function(){
@@ -1551,8 +1535,6 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
-
 
 (function(){
   function lockRosieToMar(){
@@ -1571,8 +1553,6 @@ window.addEventListener("DOMContentLoaded",()=>{
   else lockRosieToMar();
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (function(){
@@ -1597,8 +1577,6 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
-
 
 (function(){
   function init(){
@@ -1615,8 +1593,6 @@ window.addEventListener("DOMContentLoaded",()=>{
   }
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (function(){
@@ -1639,8 +1615,6 @@ window.addEventListener("DOMContentLoaded",()=>{
   }
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (function(){
@@ -1706,8 +1680,6 @@ window.addEventListener("DOMContentLoaded",()=>{
   }
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (function(){
@@ -1898,8 +1870,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
-
 
 (function(){
   const stage=document.querySelector('.bio-stage-panel');
@@ -1971,8 +1941,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (function(){
@@ -2103,8 +2071,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
-
 
 (function(){
   const db=document.getElementById('biologicalDatabase');
@@ -2176,8 +2142,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
   },true);
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (()=>{
@@ -2369,8 +2333,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
-
 
 (()=>{
   if(window.__allTabAmbienceRefreshInstalled)return;
@@ -2390,8 +2352,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
   new MutationObserver(refresh).observe(document.body,{subtree:true,attributes:true,attributeFilter:['class','data-active','data-active-species']});
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (function(){
@@ -2435,8 +2395,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
-
 
 (()=>{
   const apply=()=>{
@@ -2459,8 +2417,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
   setTimeout(apply,500);
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (()=>{
@@ -2500,8 +2456,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
   setTimeout(ensure,1000);
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (()=>{
@@ -2556,8 +2510,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
   normalize();
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (()=>{
@@ -2667,8 +2619,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
-
 
 (()=>{
   if(window.__holoLoadingProgressAudioInstalled)return;
@@ -2727,8 +2677,6 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
   });
 })();
 
-
-/* ---- ORIGINAL SCRIPT BLOCK ---- */
 
 
 (function(){
