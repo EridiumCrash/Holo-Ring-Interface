@@ -1,18 +1,16 @@
-# Holo Ring Multi-File Project
+# Holo Ring — Current Source Only Rebuild
 
-Open `index.html` first. It contains the original login and authenticated startup sequence, then opens `home.html`.
+This project was generated exclusively from `holo_ring_human_life_force_network(2).html`. No HTML, CSS, JavaScript, repairs, or router code from any earlier Holo Ring split was copied into this build.
 
-## Applications
-- `home.html` — dedicated launcher
+## Files
+- `index.html` — original login and startup sequence
+- `home.html` — Home dashboard
 - `contacts.html` — Contacts
 - `map.html` — Realm Map
 - `bio-database.html` — Biological Database
-- `scan.html` — Scanner
+- `scan.html` — Scan
+- `assets/css/holo-ring.css` — the 41 style blocks extracted from the current upload in source order
+- `assets/js/holo-ring.js` — the 27 script blocks extracted from the current upload in source order
+- `assets/js/multifile-router.js` — a new, minimal page router
 
-## Shared assets
-- `assets/css/holo-ring.css` — all original CSS blocks, kept in source order
-- `assets/js/holo-ring.js` — all original JavaScript blocks, kept in source order
-- `assets/css/multifile.css` — page routing/layout additions
-- `assets/js/multifile-router.js` — cross-page navigation and startup routing
-
-The app launcher appears only on Home. Individual applications contain one Return Home control instead of duplicating every app button. For best results, run through a local web server or GitHub Pages rather than opening with restrictive `file://` browser security.
+The original source is preserved as the functional basis.
