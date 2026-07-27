@@ -1,4 +1,3 @@
-/* ===== script-1 ===== */
 
 const characters=[
 {name:"Anna Sunshine",faction:"Soaring Lights",race:"Cattalight",realm:"Seridinia Island",energy:"Spiritual Energy",url:"https://app.notion.com/p/Anna-Sunshine-2f0c82745a138158882ff30040d0b1b0?source=copy_link",image:"https://www.notion.so/image/attachment%3A5ea9983b-6758-4cc4-a4ff-0c3d59c544d8%3AIMG_5289.png?table=block&id=2f0c82745a138158882ff30040d0b1b0&cache=v2"},
@@ -931,7 +930,8 @@ setInterval(()=>document.querySelector("#clock").textContent=new Date().toLocale
 select("Mar Sunshine");
 
 
-/* ===== script-2 ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
 const DEFAULT_THEME={
@@ -978,7 +978,8 @@ if(typeof select==="function"){
 })();
 
 
-/* ===== script-3 ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   const tips=[
@@ -1089,7 +1090,8 @@ if(typeof select==="function"){
 })();
 
 
-/* ===== script-4 ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   // Prevent browser image dragging from interfering with map/profile controls.
@@ -1129,7 +1131,8 @@ if(typeof select==="function"){
 })();
 
 
-/* ===== script-5 ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 window.addEventListener("DOMContentLoaded",()=>{
   const stage=document.querySelector("#mapStage");
@@ -1239,7 +1242,8 @@ window.addEventListener("DOMContentLoaded",()=>{
 });
 
 
-/* ===== script-6 ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   const login=document.querySelector("#holoLogin");
@@ -1308,7 +1312,8 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ===== locked-realm-dossier-support ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   const map=document.getElementById("realmMap");
@@ -1455,7 +1460,8 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ===== exaltara-character-travel-block ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   function sanitize(){
@@ -1479,7 +1485,8 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ===== home-contacts-page-controller ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   function init(){
@@ -1544,7 +1551,8 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ===== rosie-permanent-host-link ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   function lockRosieToMar(){
@@ -1564,7 +1572,8 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ===== communication-channel-scroll-helper ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   function ensureContactsScrollable(){
@@ -1588,7 +1597,8 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ===== realm-hover-title-accessibility ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   function init(){
@@ -1606,7 +1616,8 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ===== contacts-actions-status-scroll-fix ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   function init(){
@@ -1629,7 +1640,8 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ===== hover-stars-exaltara-orbit-controller ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   function init(){
@@ -1695,7 +1707,8 @@ window.addEventListener("DOMContentLoaded",()=>{
 })();
 
 
-/* ===== biological-database-controller ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
 const records={
@@ -1703,10 +1716,10 @@ const records={
  overview:[["ORIGIN","Records indicate a naturally occurring spiritual humanoid species."],["HABITAT","Known across multiple realms and settlements."],["KNOWN TRAITS","Cat-like ears, spiritual sigils, luminous markings, and emotion-responsive energy."],["SOCIAL BOND","Sibling connections may develop into a powerful shared spiritual network."],["DATABASE STATUS","Verified and actively monitored."]],
  biology:[["BODY TYPE","Humanoid physiology with visible feline traits."],["DEVELOPMENT","Spiritual abilities mature through recognizable awakening stages."],["MARKINGS","Palm sigils may develop into luminous patterns along the arms."],["ENERGY RESPONSE","Emotional stress can trigger involuntary manifestations."],["VARIATION","Appearance and spiritual color vary between individuals."]],
  spiritual:[["CORE SYSTEM","Spiritual energy shaped through emotion and conscious intent."],["SIBLING LINK","Related CattaLights can sense and influence one another across distance."],["DREAM REALM","Their bond is represented within the Sphere Threads."],["LIMITATIONS","Overuse may cause exhaustion, instability, or loss of control."],["SIGNATURE","Each individual possesses a distinct but related spiritual frequency."]] }},
- humans:{name:"HUMANS",symbol:"⌁",classification:"MORTAL BIOLOGICAL SPECIES",summary:"A widespread mortal species with no universal spiritual structure. Humans rely on adaptability, knowledge, tools, culture, and technology to survive across different environments.",tabs:{
- overview:[["ORIGIN","Standard mortal biological lifeform."],["HABITAT","Cities, villages, wilderness settlements, and multiple realm environments."],["KNOWN TRAITS","Highly adaptable, socially complex, and technologically capable."],["SPIRITUAL ACTIVITY","Varies greatly between individuals."],["DATABASE STATUS","Verified and widespread."]],
- biology:[["BODY TYPE","Standard humanoid anatomy."],["DEVELOPMENT","Matures through ordinary biological life stages."],["LIFESPAN","Dependent on environment, medicine, and local conditions."],["ADAPTABILITY","Capable of surviving through technology and learned behavior."],["VARIATION","Extensive physical and cultural diversity."]],
- spiritual:[["CORE SYSTEM","No single shared spiritual system has been confirmed."],["SENSITIVITY","Some individuals display stronger awareness of spiritual phenomena."],["CONNECTIONS","Can form emotional or magical bonds through external forces."],["LIMITATIONS","Generally less resistant to direct spiritual disruption."],["SIGNATURE","Usually lower and less visible than CattaLight energy."]] }},
+ humans:{name:"HUMANS",symbol:"⌁",classification:"LIFE-FORCE-BEARING MORTAL SPECIES",summary:"Humans are the most common inhabitants of the world. Every human is sustained by an inherent energy called Life Force, though only some are born with—or later receive—abilities connected to it. These powers can awaken through intense emotion, personal growth, inherited traits, or artificial experimentation, creating abilities as varied as the people who wield them.",tabs:{
+ overview:[["LIFE FORCE","Life Force is the inherent energy tied directly to a human's existence, vitality, emotions, and connection to the world."],["ABILITY STATUS","Most humans possess only the natural Life Force needed to live. Others can manifest unique powers or receive abilities through experiments such as those conducted at Xenia Central Prison."],["EXTRACTION RISK","Complete extraction causes immediate death. Partial extraction may permanently remove abilities, cause extreme weakness, or shorten the victim's lifespan."],["ENERGY RECOVERY","Life Force replenishes naturally over time and can recover faster through meditation or prolonged rest."],["OVERUSE","Excessive use can cause severe exhaustion, unconsciousness, unstable control, or death."],["DATABASE STATUS","Verified and widespread; powered and non-powered humans are both recognized classifications."]],
+ biology:[["INHERITANCE","A natural Life Force ability is usually inherited from one parent. Rare children develop a fused ability combining traits from both parental powers."],["MANIFESTATION","Abilities may awaken at any age after intense emotion or a life-altering event. Fear, rage, determination, grief, and similar experiences influence strength and stability."],["UNIQUENESS","Every wielder's ability manifests differently. No two powers develop in exactly the same way, even when inherited from related sources."],["ARTIFICIAL INFUSION","Humans cannot normally acquire a new Life Force ability unless born with it or altered through experimentation that changes their essence."],["GROWTH","Training and personal development can refine techniques, unlock new applications, and evolve an ability into a stronger form."],["EARLY INSTABILITY","Experimentally infused or newly awakened abilities are often unstable and unpredictable until the user learns control."]],
+ spiritual:[["VISIONARY ENERGY","Ocular Life Force manifested through transformed eyes. Attacks appear through a locked gaze; advanced Ocular Weavers can mark multiple targets and may develop a unique form of teleportation. Overuse causes migraines, blurred vision, and temporary loss of control."],["WEAPONORA ENERGY","Allows a user to summon personality-shaped weapons or gadgets with unlimited ammunition and unique status effects. Every shot consumes Life Force, while training improves accuracy and causes the weapon to evolve alongside its wielder."],["MANA ENERGY","Spell-based Life Force commonly stabilized through a wand or mage staff. Each user is limited to one summon concept that shapes all of their spells. Mana can heal, attack, or defend, but overload may shatter the casting tool until the user recovers."],["ELEMENTORIA ENERGY","A motion-driven power permanently bound to one element in nearly all users. Hand movements shape raw elements into attacks, defenses, traversal methods, and constructs; only about one percent of wielders can possess multiple elements."],["EMOTIONAL CORE","All Life Force abilities are extensions of the wielder's soul and emotional development. Stronger emotions can increase power while making an untrained manifestation less stable."],["SYSTEM LIMIT","Life Force is finite during active use. Advanced control reduces waste, but no technique removes the physical danger of severe depletion."]] }},
  vapors:{name:"SOULEST VAPORS",symbol:"〰",classification:"DARK-MATTER SOUL-DRAINING ENTITY",summary:"Twisted entities born from dark matter. Soulest Vapors drain souls and life energy from their victims, taking many specialized forms that siphon vital essence through haunting sounds, spectral attacks, corruptive dark matter, predatory fangs, or direct spiritual contact. Their hunger for life force appears insatiable, and records suggest they may descend from something far greater.",tabs:{
  overview:[["ORIGIN","Born from the substance of dark matter; their deeper ancestry remains unconfirmed."],["HABITAT","Commonly reported in dark caverns, misty forests, abandoned regions, ruined settlements, and spiritually damaged territory."],["KNOWN TRAITS","Vaporous or shadow-mutated bodies, unstable silhouettes, predatory behavior, and irregular energy readings."],["FEEDING BEHAVIOR","Drain souls, life energy, blood, or physical vitality depending on the variant."],["DATABASE STATUS","Six verified variants recorded; continued observation required."]],
  biology:[["BODY TYPE","Dark-matter entities whose anatomy differs drastically between variants."],["STRUCTURE","May appear feline, winged, humanoid, armored, two-headed, or almost entirely spectral."],["MOVEMENT","Known movement includes drifting, flight, pouncing, teleportation, rapid shadow movement, and spectral phasing."],["VARIATION","Each type specializes in a distinct hunting method and form of life-force extraction."],["CONTAINMENT","Ordinary physical barriers may fail against teleporting, intangible, or dispersing specimens."]],
@@ -1725,7 +1738,7 @@ const close=document.getElementById('bioClose');
 const wrap=document.getElementById('bioPolyWrap');
 const poly=document.getElementById('bioPoly');
 const nodes=[...document.querySelectorAll('.bio-node')];
-let active='cattalights',tab='overview',activeVariant='snare',focused=false,drag=false,lastX=0,lastY=0;
+let active='cattalights',tab='overview',activeVariant='snare',activeHumanForce='visionary',focused=false,drag=false,lastX=0,lastY=0;
 let manualX=0,manualY=0,pointerX=0,pointerY=-4,currentX=0,currentY=-4,scale=1;
 let orbitAngle=-Math.PI/2,lastFrame=performance.now(),raf=0;
 const speciesOrder=['cattalights','vapors','humans'];
@@ -1745,6 +1758,16 @@ function render(){
    const chosen=r.variants.find(v=>v.id===activeVariant)||r.variants[0];
    facts.innerHTML=`<div class="vapor-variant-display"><div class="vapor-specimen"><div class="vapor-specimen-core">${chosen.icon}</div><div class="vapor-specimen-rings"></div></div><div class="vapor-variant-copy"><div class="vapor-record-label">SELECTED VAPOR RECORD</div><h4>${chosen.name}</h4><div class="vapor-type">${chosen.type}</div><div class="vapor-threat">THREAT ASSESSMENT // ${chosen.threat}</div><p>${chosen.summary}</p></div></div><div class="vapor-gallery">${r.variants.map(v=>`<button class="vapor-card ${v.id===chosen.id?'active':''}" data-vapor-id="${v.id}"><span class="vapor-card-icon">${v.icon}</span><span><strong>${v.name}</strong><small>${v.type}</small></span></button>`).join('')}</div>`;
    facts.querySelectorAll('.vapor-card').forEach(card=>card.addEventListener('click',()=>{activeVariant=card.dataset.vaporId;render()}));
+ }else if(active==='humans'&&tab==='spiritual'){
+   const forceRecords={
+    visionary:{name:'VISIONARY ENERGY',icon:'◉',color:'#ffe36d',classification:'OCULAR LIFE FORCE',description:'Visionary Energy manifests through transformed eyes. The user locks their gaze onto a target and creates attacks through what they are watching. Advanced Ocular Weavers can track multiple targets and may develop a unique teleportation trait.',facts:[['ACTIVATION','The eyes change color or pattern when summoned.'],['TARGETING','Attacks manifest through a fixed gaze instead of hand-based aiming.'],['ADVANCEMENT','Experienced users can multi-lock targets and switch attacks rapidly.'],['LIMIT','Overuse causes migraines, blurred vision, and temporary loss of control.']]},
+    weaponora:{name:'WEAPONORA ENERGY',icon:'✦',color:'#62b8ff',classification:'MANIFESTED ARMAMENT LIFE FORCE',description:'Weaponora Energy allows a human to summon a weapon or gadget shaped by their personality. Its form, ammunition effects, traits, and evolution reflect the wielder’s identity.',facts:[['MANIFESTATION','Creates personal weapons or gadgets.'],['AMMUNITION','Ammo is unlimited, but every shot consumes Life Force.'],['STATUS TRAITS','Weapons may inflict electricity, magma, corrosion, or stranger effects.'],['ADVANCEMENT','Training improves accuracy and evolves the weapon.']]},
+    mana:{name:'MANA ENERGY',icon:'✧',color:'#b47cff',classification:'SPELLCASTING LIFE FORCE',description:'Mana Energy forms spells through chants, signs, runes, circles, focus, or a wand or mage staff. Every Mana user is bound to one summon concept that shapes all of their spells.',facts:[['CASTING TOOL','Wands and staffs stabilize Life Force.'],['SUMMON RULE','Each user has one summon concept.'],['SPECIAL TRAIT','Mana can heal, attack, or defend.'],['LIMIT','Overload can shatter the casting tool until recovery.']]},
+    elementoria:{name:'ELEMENTORIA ENERGY',icon:'△',color:'#ff9e52',classification:'ELEMENTAL MOTION LIFE FORCE',description:'Elementoria Energy manifests through physical motion. The user shapes one permanently bound element through their hands into attacks, defenses, movement techniques, terrain structures, traps, and projectiles.',facts:[['ELEMENT BOND','Nearly every user is bound to one element.'],['CONTROL','Longer distance reduces precision.'],['ADVANCEMENT','Refined users replace large gestures with efficient movements.'],['RARE RULE','Only about one percent can wield multiple elements.']]}
+   };
+   const chosen=forceRecords[activeHumanForce]||forceRecords.visionary;
+   facts.innerHTML=`<div class="human-force-system"><div class="human-force-map"><svg class="human-force-lines" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="50" y1="51" x2="50" y2="19"></line><line x1="50" y1="51" x2="20" y2="53"></line><line x1="50" y1="51" x2="80" y2="53"></line><line x1="50" y1="51" x2="50" y2="84"></line></svg><div class="human-core-node"><span class="human-core-symbol">⌁</span><strong>HUMAN</strong><small>LIFE FORCE CORE</small></div>${Object.entries(forceRecords).map(([id,f])=>`<button type="button" class="human-force-node ${id===activeHumanForce?'active':''}" data-force="${id}"><span class="force-node-icon">${f.icon}</span><span><strong>${f.name}</strong><small>CONNECTED TYPE</small></span></button>`).join('')}</div><div class="human-force-detail"><div class="force-detail-head"><div class="force-detail-emblem" style="--force:${chosen.color}">${chosen.icon}</div><div><div class="force-detail-label">HUMAN LIFE FORCE RECORD</div><h4>${chosen.name}</h4><div class="force-detail-class">${chosen.classification}</div></div></div><p class="force-detail-copy">${chosen.description}</p><div class="force-detail-grid">${chosen.facts.map(([a,b])=>`<div class="force-detail-stat"><b>${a}</b><span>${b}</span></div>`).join('')}</div></div></div>`;
+   facts.querySelectorAll('.human-force-node').forEach(node=>node.addEventListener('click',()=>{activeHumanForce=node.dataset.force;render()}));
  }else{
    facts.innerHTML=r.tabs[tab].map(([a,b])=>`<div class="bio-fact"><b>${a}</b><span>${b}</span></div>`).join('');
  }
@@ -1875,7 +1898,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== bio-fixed-icons-and-particles-controller ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   const stage=document.querySelector('.bio-stage-panel');
@@ -1948,7 +1972,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== bio-vapor-stage-variants-controller ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   const db=document.getElementById('biologicalDatabase');
@@ -2078,7 +2103,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== bio-invisible-hit-circles-and-back-controller ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   const db=document.getElementById('biologicalDatabase');
@@ -2151,7 +2177,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== holo-ring-audio-engine ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (()=>{
   const db=document.getElementById('biologicalDatabase');
@@ -2342,7 +2369,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== all-tab-ambience-refresh-extension ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (()=>{
   if(window.__allTabAmbienceRefreshInstalled)return;
@@ -2363,7 +2391,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== fixed-biological-species-selector-controller ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   const db=document.getElementById('biologicalDatabase');
@@ -2406,7 +2435,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== bio-species-decorative-only-controller-final ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (()=>{
   const apply=()=>{
@@ -2430,7 +2460,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== bio-database-final-visibility-controller ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (()=>{
   const ensure=()=>{
@@ -2470,7 +2501,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== bio-monitor-final-controller ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (()=>{
   const db=document.getElementById('biologicalDatabase');
@@ -2525,7 +2557,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== holo-ring-global-interface-sounds ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (()=>{
   if(window.__holoGlobalSoundsInstalled)return;
@@ -2634,7 +2667,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== holo-loading-progress-audio ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (()=>{
   if(window.__holoLoadingProgressAudioInstalled)return;
@@ -2694,7 +2728,8 @@ render();updateOrbitPositions();setCamera();raf=requestAnimationFrame(frame);
 })();
 
 
-/* ===== bio-blank-initial-species-controller ===== */
+/* ---- ORIGINAL SCRIPT BLOCK ---- */
+
 
 (function(){
   const db=document.getElementById('biologicalDatabase');

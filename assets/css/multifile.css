@@ -1,0 +1,19 @@
+
+/* Multi-file application shell */
+body.app-page .toolbar{display:none!important}
+body.app-page .viewport{grid-template-rows:1fr!important}
+.app-home-return{position:fixed;right:28px;top:98px;z-index:11700;padding:10px 14px;border:1px solid color-mix(in srgb,var(--theme-1,#63f7ff) 42%,transparent);border-radius:10px;background:rgba(2,12,22,.92);color:#eaffff;font:inherit;font-size:9px;font-weight:800;letter-spacing:.14em;box-shadow:0 0 18px color-mix(in srgb,var(--theme-1,#63f7ff) 16%,transparent)}
+body[data-app="home"] .app-home-return,body[data-app="login"] .app-home-return{display:none!important}
+.dedicated-scan-screen{display:none;height:100%;min-height:0;overflow:auto;padding:clamp(24px,4vw,56px);background:radial-gradient(circle at 50% 45%,rgba(99,247,255,.11),transparent 31%),linear-gradient(145deg,#020914,#040b17)}
+body[data-app="scan"] .dedicated-scan-screen{display:grid;place-items:center}
+body[data-app="scan"] .home-dashboard,body[data-app="scan"] .hologram,body[data-app="scan"] .sidebar{display:none!important}
+body[data-app="scan"] .main{grid-template-columns:1fr!important}
+.dedicated-scan-core{width:min(980px,94%);display:grid;grid-template-columns:minmax(280px,430px) 1fr;gap:clamp(28px,5vw,70px);align-items:center;padding:clamp(26px,4vw,54px);border:1px solid rgba(99,247,255,.22);border-radius:26px;background:rgba(3,15,27,.8);box-shadow:inset 0 0 55px rgba(99,247,255,.04),0 0 50px rgba(40,140,255,.08)}
+.dedicated-scan-ring{aspect-ratio:1;border-radius:50%;display:grid;place-items:center;border:2px solid #63f7ff;box-shadow:0 0 30px rgba(99,247,255,.45),inset 0 0 45px rgba(40,140,255,.14);position:relative;animation:scanPulse 2.4s ease-in-out infinite}
+.dedicated-scan-ring:before,.dedicated-scan-ring:after{content:"";position:absolute;border-radius:50%;inset:10%;border:1px dashed #9a6cff;animation:spin 11s linear infinite}.dedicated-scan-ring:after{inset:-8%;border-color:rgba(99,247,255,.35);animation-direction:reverse;animation-duration:18s}
+.dedicated-scan-reticle{font-size:74px;color:#63f7ff;text-shadow:0 0 24px #63f7ff}
+.dedicated-scan-copy h2{font-size:clamp(30px,4vw,55px);letter-spacing:.1em;margin:12px 0}.dedicated-scan-copy p{color:#91afba;line-height:1.7}
+.dedicated-scan-meter{height:12px;margin:25px 0 18px;border:1px solid rgba(99,247,255,.2);border-radius:99px;overflow:hidden;background:rgba(255,255,255,.05)}.dedicated-scan-meter i{display:block;width:0;height:100%;background:linear-gradient(90deg,#288cff,#63f7ff,#9a6cff);box-shadow:0 0 18px #63f7ff;transition:width 1.65s ease}
+#dedicatedScanStart{padding:13px 20px;border:1px solid #63f7ff;border-radius:10px;background:rgba(99,247,255,.09);color:white;font-size:10px;font-weight:800;letter-spacing:.14em}
+@keyframes scanPulse{50%{filter:brightness(1.22);transform:scale(1.018)}}
+@media(max-width:800px){.dedicated-scan-core{grid-template-columns:1fr}.dedicated-scan-ring{width:min(330px,80vw);margin:auto}.app-home-return{right:12px;top:88px}}

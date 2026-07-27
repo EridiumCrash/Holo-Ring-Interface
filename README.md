@@ -1,18 +1,18 @@
 # Holo Ring Multi-File Project
 
-Open `index.html` to begin at the original login screen. After authentication, the original startup sequence opens the Home app.
+Open `index.html` first. It contains the original login and authenticated startup sequence, then opens `home.html`.
 
-Pages:
-- `index.html` — login/startup entry
-- `home.html` — Home
+## Applications
+- `home.html` — dedicated launcher
 - `contacts.html` — Contacts
-- `map.html` — Map
+- `map.html` — Realm Map
 - `bio-database.html` — Biological Database
-- `scan.html` — Scan
+- `scan.html` — Scanner
 
-Shared assets:
-- `assets/css/holo-ring.css` — all original styles in original cascade order
-- `assets/js/holo-ring.js` — all original behavior and data in original execution order
-- `assets/js/app-router.js` — page routing/direct-entry controller
+## Shared assets
+- `assets/css/holo-ring.css` — all original CSS blocks, kept in source order
+- `assets/js/holo-ring.js` — all original JavaScript blocks, kept in source order
+- `assets/css/multifile.css` — page routing/layout additions
+- `assets/js/multifile-router.js` — cross-page navigation and startup routing
 
-Keep the folder structure unchanged when uploading to GitHub Pages, Netlify, Cloudflare Pages, or another static host.
+The app launcher appears only on Home. Individual applications contain one Return Home control instead of duplicating every app button. For best results, run through a local web server or GitHub Pages rather than opening with restrictive `file://` browser security.
