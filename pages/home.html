@@ -1,0 +1,45 @@
+<!-- Home dashboard page. -->
+<section aria-label="Holo Ring home" class="home-dashboard" id="homeDashboard">
+<div class="home-hero">
+<div class="home-kicker">ERIDIUM NETWORK // COMMAND HOME</div>
+<h2>WELCOME BACK, OPERATOR</h2>
+<p>The Holo Ring is synchronized. Review network activity, open the Realm Navigator, or access Contacts to view character status and current location.</p>
+<div class="home-actions">
+<button id="homeOpenContacts" type="button">OPEN CONTACTS</button>
+<button id="homeOpenMap" type="button">OPEN REALM MAP</button>
+<button id="homeOpenBio" type="button">BIOLOGICAL DATABASE</button>
+</div>
+</div>
+<div class="home-grid">
+<article class="home-card">
+<div class="home-card-head"><span>NETWORK STATUS</span><b>ONLINE</b></div>
+<div class="home-status-list">
+<div><span>Realm Navigator</span><strong>READY</strong></div>
+<div><span>Contact Tracking</span><strong>ACTIVE</strong></div>
+<div><span>Message Matrix</span><strong>SECURE</strong></div>
+<div><span>Archive Connection</span><strong>LINKED</strong></div>
+</div>
+</article>
+<article class="home-card">
+<div class="home-card-head"><span>REALM OVERVIEW</span><b>5 ACCESSIBLE</b></div>
+<div class="home-realm-list">
+<button data-home-realm="Seridinia Island" type="button"><i></i><span>Seridinia Island</span><small>STABLE</small></button>
+<button data-home-realm="Rendoria Island" type="button"><i></i><span>Rendoria Island</span><small>DANGER</small></button>
+<button data-home-realm="Vexlandia Realm" type="button"><i></i><span>Vexlandia Realm</span><small>MONITORED</small></button>
+<button data-home-realm="Aeithorium Bastion" type="button"><i></i><span>Aeithorium Bastion</span><small>STABLE</small></button>
+<button data-home-realm="Exaltara" type="button"><i></i><span>Exaltara</span><small>NO EXPLORERS</small></button>
+</div>
+</article>
+<article class="home-card">
+<div class="home-card-head"><span>CONTACT MATRIX</span><b id="homeContactCount">TRACKING</b></div>
+<div class="home-contact-summary">
+<div><strong>LIVE STATUS</strong><span>View each character’s activity, health, energy, realm, region, and coordinates.</span></div>
+<button id="homeContactsShortcut" type="button">VIEW CHARACTER STATUS</button>
+</div>
+</article>
+<article class="home-card home-alert-card">
+<div class="home-card-head"><span>SECURITY NOTICE</span><b>EXALTARA</b></div>
+<p>Character travel and exploration permissions for Exaltara are disabled. The realm archive remains viewable, but no character status or location will be assigned there.</p>
+</article>
+</div>
+</section>
